@@ -38,6 +38,10 @@
 #include <x86intrin.h>
 #endif
 
+#if defined(SIMD_MATH_SSE)
+#include <xmmintrin.h>
+#endif
+
 namespace KlayGE
 {
 #if defined(SIMD_MATH_SSE)

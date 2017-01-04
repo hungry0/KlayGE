@@ -40,6 +40,10 @@
 #include <cstring>
 #include <boost/assert.hpp>
 
+#ifdef KLAYGE_COMPILER_MSVC
+#include <intrin.h>
+#endif
+
 #include <KlayGE/TexCompressionBC.hpp>
 
 namespace
